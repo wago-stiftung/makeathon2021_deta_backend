@@ -23,18 +23,18 @@ def get_root():
 ## LIGHTS - READ
 #########################################################
 
-LIGHTNAMES = [
-    'bad1',
-    'bad2',
-    'bad3',
-    'couchtisch',
-    'esstisch',
-    'flur',
-    'gaestezimmer',
-    'garderobe',
-    'kueche',
-    'schlafzimmer',
-    ]
+# LIGHTNAMES = [
+#     'bad1',
+#     'bad2',
+#     'bad3',
+#     'couchtisch',
+#     'esstisch',
+#     'flur',
+#     'gaestezimmer',
+#     'garderobe',
+#     'kueche',
+#     'schlafzimmer',
+#     ]
 
 db_lights = deta.Base('lights')
 # Diese Zeile nur beim ersten Aufruf, danach neu Deploy, da hiermit nur per Computer ein paar Daten angelegt werden.
